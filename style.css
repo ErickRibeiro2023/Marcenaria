@@ -1,0 +1,457 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+ 
+    padding: 10px;
+    margin-bottom: 11%;
+    height: 12vh;
+    top: 0; /* Fixa o elemento no topo da tela */
+    background-color: #ffffff; /* Adicione uma cor de fundo ao header */
+    z-index: 999; /* Certifique-se de que o header esteja acima de outros elementos */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    position: fixed;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+#logo {
+    
+    width: 20%;
+    margin-left: 45%;
+         
+}
+
+#logo:hover {
+    scale: 1.1;
+    
+
+}
+#logo img {
+    width: 150px;
+    
+}
+
+
+/* ------------ INICIO  CARROUSELLLLL------ */
+#primeiroConteudo {
+    margin-top: 9%;
+    height: 50vh;
+    
+}
+
+#slides{
+    width: 95%;
+    height: 100vh;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    
+}
+
+.carrossel {
+    
+
+    width: 100%;
+    height: 60vh;
+    
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+#div_imgs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(85, 107, 47, 0);  
+    
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    background-color: #10afc400 ;
+    position: relative;
+    bottom: 20px;
+    
+}
+.descricao {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 98%;
+    height: 20%;
+    
+}
+.h2 {
+    font-size: 28px; 
+    font-weight: bold; 
+}
+
+.h3 {
+    font-size: 18px; 
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: 100px;
+}
+
+.slide img {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+/* ------------ FIM CARROUSELLLLL------ */
+
+
+
+/* ------------ INICIO CONTEUDO DE DESCRIÇÃO------ */
+#conteudomeio {
+    
+
+    padding: 20px;
+    margin-bottom: 5%;
+    padding: 20px;
+    height: 30vh;
+   
+    
+    
+}
+#descricao {
+  
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com larguras iguais */
+    gap: 20px; /* Espaçamento entre as colunas e linhas */
+    padding: 20px; /* Padding interno */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+#container-vsf img{
+    
+    width:100%;
+    height: 300px;
+    border-radius: 10px;
+}
+#container-vsf img:hover{
+   scale:1.2;
+}
+.conteudoMeio{
+    
+    display: flex;
+    position: absolute  ;
+    flex-direction: column;
+    border-radius: 12px;
+     width:25%;
+     height: 35%;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0 0 10px 2px rgb(180, 180, 180);
+     font-family: 'modelo-airbnb';
+     margin: 0;
+     padding: 0;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+
+.tituloConteudoMeio {
+    font-size: 24px; 
+    color: #333; /
+   
+  }
+  
+ 
+  .icone {
+    color: #007bff; 
+    font-size: 36px; 
+    margin: 10px 0; 
+    margin-bottom: 30px;
+  }
+  
+ 
+  .descricaoConteudoMeio {
+    font-size: 16px; 
+    color: #666;
+    text-align: center; 
+    margin-bottom: 15px;
+    
+  }
+
+
+  /* ------------ FIM CONTEUDO DE DESCRIÇÃO------ */
+
+
+  #porfolio {
+    width: 100%;
+    padding: 10px;
+    height: 60vh;
+  }
+  
+  #portfolioCima {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #porfolioBaixo {
+    margin-bottom: 1%;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    /* background-image: url(src/assets/imagens/abc.jpg);
+    background-size: cover; 
+    background-position: center; Centraliza a imagem de fundo */
+    position: relative; /
+  }
+  
+  .swiper-slide {
+    display: flex;
+    height: 50vh;
+    background-color: #f8b60000;
+}
+
+.swiper-slide img{
+    margin-top: 2%;
+    height: 50vh;
+    width: 50%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
+.swiper-slide img:hover {
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+
+.section-title {
+    top:100px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title p{
+    font-size: 24px;
+    padding-bottom: 30px;
+    
+   
+}
+
+
+
+#contato {
+    
+    padding: 20px;
+    height: 20vh;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp-link {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999; /* Certifique-se de que o z-index esteja alto o suficiente para estar acima de outros elementos */
+}
+.whatsapp-icon {
+    color: green; 
+    font-size: 50px;
+    transition: transform 0.3s ease;
+}
+.whatsapp-icon:hover {
+    transform: scale(1.2); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+.icone-instagram {
+    color: brown;
+    font-size: 50px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+.icone-instagram:hover{
+        transform: scale(1.2); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+
+}
+.icone-whatsapp{
+    color: green; 
+    font-size: 50px;
+    transition: transform 0.3s ease;
+}
+
+.icone-whatsapp:hover{
+    transform: scale(1.2); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+
+}
+#contato a {
+    margin: 0 10px; /* Espaçamento entre os ícones */
+}
+
+#contato img {
+    width: 30px; /* Ajuste o tamanho dos ícones conforme necessário */
+    height: auto;
+}
+#contato h2{
+    margin-top: 20%;
+}
+
+#footer {
+    width: 100%;
+    padding: 20px;
+    height: 2vh;
+    margin-top: 5%;
+    display: flex;
+    position: absolute;
+    background-color: #000000ed;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'modelo-airbnb';
+    transition: 0.3s;
+}
+
+
+.icone-l.icone-linkedin{
+    transform: scale(1.5); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+
+}
+
+
+.icone-linkedin{
+    font-size: 25px;
+    transition: transform 0.3s ease;
+    
+   
+}
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 568px) {
+    #head{
+        padding-top: 0;
+    }
+
+    #logo {
+    
+        width: 30%;
+        margin-left: 35%;
+        height: 100%;
+        
+        
+    }
+    
+    #logo:hover {
+        scale: 1.0;
+        
+    
+    }
+    #logo img {
+        /* margin-bottom: 15%; */
+       margin-top: 0;
+       height: 63px;
+        
+        
+    } 
+    #primeiroConteudo{
+        
+        margin-top: 27%;
+        height: 75vh;
+        
+
+    }
+    .slide img {
+        height: 380px;
+        border-radius: 20px;
+    
+    }
+    .descricao {
+        width: 93%;
+     
+    }
+
+    .h2 {
+        font-size: 16px; 
+        font-weight: bold; 
+        
+    }
+    
+    .h3 {
+        
+        font-size: 13px; 
+        
+    }
+   
+
+    #conteudomeio {
+        background-color: red;
+        margin-top: 20%;
+        height: 60vh;
+        
+    
+    
+    }   
+
+    #descricao {
+       
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    
+    .tituloConteudoMeio {
+        font-size: 15px;
+    }
+    .conteudoMeio{
+        height: 50vh;
+        width: 33%;
+        background-color: blue;
+
+    
+    }
+    
+    #porfolio {
+        background-color: red;
+        margin-top: 50%;
+    }
+    
+  }

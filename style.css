@@ -7,9 +7,9 @@ body {
 
 #head {
  
-    padding: 10px;
+    padding: 0px;
     margin-bottom: 11%;
-    height: 12vh;
+    height: 18vh;
     top: 0; /* Fixa o elemento no topo da tela */
     background-color: #ffffff; /* Adicione uma cor de fundo ao header */
     z-index: 999; /* Certifique-se de que o header esteja acima de outros elementos */
@@ -22,7 +22,7 @@ body {
 
 #logo {
     
-    width: 20%;
+    width: 30%;
     margin-left: 45%;
          
 }
@@ -34,13 +34,14 @@ body {
 }
 #logo img {
     width: 150px;
+    height: 150px;
     
 }
 
 
 /* ------------ INICIO  CARROUSELLLLL------ */
 #primeiroConteudo {
-    margin-top: 9%;
+    margin-top: 11%;
     height: 50vh;
     
 }
@@ -86,7 +87,7 @@ body {
     bottom: 20px;
     
 }
-.descricao {
+.descricaoSlide {
     position: absolute;
     top: 25%;
     left: 50%;
@@ -368,90 +369,166 @@ img {
 @media only screen and (max-width: 568px) {
     #head{
         padding-top: 0;
+        height: 23vh;
     }
 
     #logo {
     
-        width: 30%;
-        margin-left: 35%;
+        width: 50%;
+        margin-left: 25%;
         height: 100%;
         
         
     }
     
     #logo:hover {
-        scale: 1.0;
+        scale: 1.2;
         
     
     }
     #logo img {
         /* margin-bottom: 15%; */
-       margin-top: 0;
-       height: 63px;
+
+        height: 110px;
+       width: 150px;
         
         
     } 
     #primeiroConteudo{
         
-        margin-top: 27%;
+        margin-top: 42%;
         height: 75vh;
         
 
+    }
+
+    .descricaoSlide {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        width: 93%;
+        height: 30%;
+        
     }
     .slide img {
         height: 380px;
         border-radius: 20px;
     
     }
-    .descricao {
+    #descricao {
         width: 93%;
      
     }
 
     .h2 {
-        font-size: 16px; 
+        font-size: 2px; 
         font-weight: bold; 
         
     }
     
     .h3 {
         
-        font-size: 13px; 
+        font-size: 17px; 
         
     }
    
 
     #conteudomeio {
-        background-color: red;
-        margin-top: 20%;
-        height: 60vh;
+        margin-top: 7%;
+        height: 205vh;
+        flex-direction: column;
+        display: flex;
+        
         
     
     
     }   
 
     #descricao {
-       
+        position: relative;
         width: 100%;
         height: 100%;
         
     }
-    
+    #descricao {
+        
+        margin-left: 1%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 3 colunas com larguras iguais */
+        grid-template-rows: repeat(1,65vh);
+        /* gap: 20px; Espaçamento entre as colunas e linhas */
+        padding: 5vh; /* Padding interno */
+        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    }
     
     .tituloConteudoMeio {
-        font-size: 15px;
+        font-size: 22px;
+        /* margin-right: 100px; */
     }
     .conteudoMeio{
-        height: 50vh;
-        width: 33%;
-        background-color: blue;
+        position: relative;
+        height: 30%;
+        width: 80%;
+        
+        
 
     
     }
+
+
     
     #porfolio {
-        background-color: red;
-        margin-top: 50%;
+        
+        height: 70vh;
+        
     }
+    #portfolioCima {
+      
+        margin-bottom: 5%;
+      }
+    #porfolioBaixo {
+        margin-bottom: 1%;
+       
+      }
+      
+      
+    
+    .swiper-slide img{
+        margin-top: 2%;
+        height: 50vh;
+        width: 80%;
+        border-radius: 10px;
+        transition: 0.5s;
+        margin-right: 7%;
+    }
+    
+    
+    
+    .swiper-slide img:hover {
+        scale: 1.1;
+        transition: 0.2s;
+    }
+    #contato {
+    
+        
+        height: 32vh;
+        
+    }
+    #footer{
+        height: 10vh;
+        margin-top: 15%;
+    }
+    .container-footer {
+    
+       height: 10vh;
+       margin-right: 10%;
+    }
+
+  
     
   }

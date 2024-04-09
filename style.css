@@ -366,17 +366,24 @@ img {
 
 /* RESPONSIVIDADE */
 
-@media only screen and (max-width: 568px) {
+
+
+        
+
+@media only screen and (max-width: 896px) {
+    
     #head{
         padding-top: 0;
-        height: 23vh;
+        height: 19vh;
+        
+        
     }
 
     #logo {
     
         width: 50%;
         margin-left: 25%;
-        height: 100%;
+        height: 50%;
         
         
     }
@@ -389,22 +396,23 @@ img {
     #logo img {
         /* margin-bottom: 15%; */
 
-        height: 110px;
-       width: 150px;
+        height: 135px;
+       width: 160px;
         
         
     } 
     #primeiroConteudo{
-        
-        margin-top: 42%;
-        height: 75vh;
+        width: 100%;
+        margin-top: 37%;
+        height: 70vh;
         
 
     }
 
     .descricaoSlide {
+        
         position: absolute;
-        top: 25%;
+        top: 18%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: rgba(0, 0, 0, 0.7);
@@ -412,11 +420,11 @@ img {
         padding: 10px;
         text-align: center;
         width: 93%;
-        height: 30%;
+        height: 20%;
         
     }
     .slide img {
-        height: 380px;
+        height: 460px;
         border-radius: 20px;
     
     }
@@ -426,7 +434,7 @@ img {
     }
 
     .h2 {
-        font-size: 2px; 
+        font-size: 20px; 
         font-weight: bold; 
         
     }
@@ -439,8 +447,7 @@ img {
    
 
     #conteudomeio {
-        margin-top: 7%;
-        height: 205vh;
+        height: 120vh;
         flex-direction: column;
         display: flex;
         
@@ -456,11 +463,10 @@ img {
         
     }
     #descricao {
-        
         margin-left: 1%;
         display: grid;
         grid-template-columns: repeat(1, 1fr); /* 3 colunas com larguras iguais */
-        grid-template-rows: repeat(1,65vh);
+        grid-template-rows: repeat(1,35vh);
         /* gap: 20px; Espaçamento entre as colunas e linhas */
         padding: 5vh; /* Padding interno */
         justify-content: center; /* Centraliza o conteúdo horizontalmente */
@@ -480,11 +486,10 @@ img {
     
     }
 
-
-    
     #porfolio {
         
         height: 70vh;
+        margin-top: 20px;
         
     }
     #portfolioCima {
@@ -501,10 +506,10 @@ img {
     .swiper-slide img{
         margin-top: 2%;
         height: 50vh;
-        width: 80%;
+        width: 90%;
         border-radius: 10px;
         transition: 0.5s;
-        margin-right: 7%;
+        margin-right: 5%;
     }
     
     
@@ -517,18 +522,18 @@ img {
     
         
         height: 32vh;
+        margin-top: 40px;
         
     }
     #footer{
         height: 10vh;
-        margin-top: 15%;
+        margin-top: 30%;
     }
     .container-footer {
-    
+    margin-bottom: 20px;
        height: 10vh;
        margin-right: 10%;
+       
     }
-
-  
     
   }

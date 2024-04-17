@@ -1,3 +1,6 @@
+
+
+
 body {
     width: 100%;
     height: 100%;
@@ -231,9 +234,12 @@ img {
   }
   
   .swiper-slide {
+    
     display: flex;
     height: 50vh;
     background-color: #f8b60000;
+   
+
 }
 
 .swiper-slide img{
@@ -374,7 +380,7 @@ img {
     
     #head{
         padding-top: 0;
-        height: 19vh;
+        height: 21vh;
         
         
     }
@@ -403,7 +409,7 @@ img {
     } 
     #primeiroConteudo{
         width: 100%;
-        margin-top: 37%;
+        margin-top: 40%;
         height: 70vh;
         
 
@@ -423,6 +429,8 @@ img {
         height: 20%;
         
     }
+
+    
     .slide img {
         height: 460px;
         border-radius: 20px;
@@ -447,9 +455,11 @@ img {
    
 
     #conteudomeio {
-        height: 120vh;
+        height: 100vh;
         flex-direction: column;
         display: flex;
+        width: fit-content;
+        height: 100%;
         
         
     
@@ -460,16 +470,17 @@ img {
         position: relative;
         width: 100%;
         height: 100%;
-        
+   
     }
     #descricao {
         margin-left: 1%;
         display: grid;
         grid-template-columns: repeat(1, 1fr); /* 3 colunas com larguras iguais */
         grid-template-rows: repeat(1,35vh);
-        /* gap: 20px; Espaçamento entre as colunas e linhas */
+        gap:15vh;
         padding: 5vh; /* Padding interno */
         justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        
     }
     
     .tituloConteudoMeio {
@@ -480,7 +491,8 @@ img {
         position: relative;
         height: 30%;
         width: 80%;
-        
+        margin-bottom: 3vh;
+
         
 
     
@@ -537,3 +549,6 @@ img {
     }
     
   }
+
+
+  

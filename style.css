@@ -12,7 +12,7 @@ body {
  
     padding: 0px;
     margin-bottom: 11%;
-    height: 18vh;
+    height: 20vh;
     top: 0; /* Fixa o elemento no topo da tela */
     background-color: #ffffff; /* Adicione uma cor de fundo ao header */
     z-index: 999; /* Certifique-se de que o header esteja acima de outros elementos */
@@ -137,6 +137,7 @@ img {
     margin-bottom: 5%;
     padding: 20px;
     height: 30vh;
+    margin-top: 4%;
    
     
     
@@ -167,7 +168,7 @@ img {
     flex-direction: column;
     border-radius: 12px;
      width:25%;
-     height: 35%;
+     height: 39%;
      background-color: rgb(255, 255, 255);
      box-shadow: 0 0 10px 2px rgb(180, 180, 180);
      font-family: 'modelo-airbnb';
@@ -175,6 +176,7 @@ img {
      padding: 0;
      justify-content: center;
      align-items: center;
+     
      
      
  }
@@ -345,6 +347,7 @@ img {
     margin-top: 20%;
 }
 
+
 #footer {
     width: 100%;
     padding: 20px;
@@ -395,28 +398,28 @@ img {
     #logo {
     
         width: 50%;
-        margin-left: 25%;
+        margin-left: 29%;
         height: 50%;
         
         
     }
     
     #logo:hover {
-        scale: 1.2;
+        scale: 1.0;
         
     
     }
     #logo img {
         /* margin-bottom: 15%; */
 
-        height: 135px;
-       width: 160px;
+        height: 155px;
+        width: 160px;
         
         
     } 
     #primeiroConteudo{
         width: 100%;
-        margin-top: 40%;
+        margin-top: 38%;
         height: 70vh;
         
 
@@ -485,8 +488,9 @@ img {
         grid-template-columns: repeat(1, 1fr); /* 3 colunas com larguras iguais */
         grid-template-rows: repeat(1,35vh);
         gap:15vh;
-        padding: 3vh; /* Padding interno */
+        padding: 2,5vh; /* Padding interno */
         justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        
     }
     
     .tituloConteudoMeio {
@@ -496,7 +500,9 @@ img {
     .conteudoMeio{
         position: relative;
         height: 30%;
-        width: 90%;
+        width: 100%;
+        margin-bottom: 3vh;
+
         
 
     
@@ -507,7 +513,6 @@ img {
         height: 70vh;
         margin-top: 20px;
         
-        
     }
     #portfolioCima {
       
@@ -515,7 +520,6 @@ img {
       }
     #porfolioBaixo {
         margin-bottom: 1%;
-        
        
       }
       
@@ -524,11 +528,10 @@ img {
     .swiper-slide img{
         margin-top: 2%;
         height: 50vh;
-        width: 50vh;
+        width: 90%;
         border-radius: 10px;
         transition: 0.5s;
         margin-right: 5%;
-        
     }
     
     
@@ -540,16 +543,16 @@ img {
     #contato {
     
         
-        height: 32vh;
+        height: 25vh;
         margin-top: 40px;
         
     }
     #footer{
-        height: 6vh;
+        height: 10vh;
         margin-top: 30%;
     }
     .container-footer {
-    margin-top: 15px;
+    margin-bottom: 20px;
        height: 10vh;
        margin-right: 10%;
        

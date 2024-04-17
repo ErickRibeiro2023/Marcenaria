@@ -303,19 +303,26 @@ img {
     font-size: 50px;
     transition: transform 0.3s ease;
 }
+.instagram-icon{
+    color: brown;
+    font-size: 50px;
+
+}
 .whatsapp-icon:hover {
     transform: scale(1.2); /* Aumenta ligeiramente o tamanho ao passar o mouse */
 }
 
-.icone-instagram {
+.instagram-link {
     color: brown;
     font-size: 50px;
     transition: transform 0.3s ease; /* Adiciona uma transição suave */
 }
-.icone-instagram:hover{
-        transform: scale(1.2); /* Aumenta ligeiramente o tamanho ao passar o mouse */
 
+.instagram-icon:hover {
+    transform: scale(1.2); /* Aumenta ligeiramente o tamanho ao passar o mouse */
 }
+
+
 .icone-whatsapp{
     color: green; 
     font-size: 50px;
@@ -380,7 +387,7 @@ img {
     
     #head{
         padding-top: 0;
-        height: 21vh;
+        height: 20vh;
         
         
     }
@@ -478,9 +485,8 @@ img {
         grid-template-columns: repeat(1, 1fr); /* 3 colunas com larguras iguais */
         grid-template-rows: repeat(1,35vh);
         gap:15vh;
-        padding: 5vh; /* Padding interno */
+        padding: 3vh; /* Padding interno */
         justify-content: center; /* Centraliza o conteúdo horizontalmente */
-        
     }
     
     .tituloConteudoMeio {
@@ -490,9 +496,7 @@ img {
     .conteudoMeio{
         position: relative;
         height: 30%;
-        width: 80%;
-        margin-bottom: 3vh;
-
+        width: 90%;
         
 
     
@@ -503,6 +507,7 @@ img {
         height: 70vh;
         margin-top: 20px;
         
+        
     }
     #portfolioCima {
       
@@ -510,6 +515,7 @@ img {
       }
     #porfolioBaixo {
         margin-bottom: 1%;
+        
        
       }
       
@@ -518,10 +524,11 @@ img {
     .swiper-slide img{
         margin-top: 2%;
         height: 50vh;
-        width: 90%;
+        width: 50vh;
         border-radius: 10px;
         transition: 0.5s;
         margin-right: 5%;
+        
     }
     
     
@@ -538,11 +545,11 @@ img {
         
     }
     #footer{
-        height: 10vh;
+        height: 6vh;
         margin-top: 30%;
     }
     .container-footer {
-    margin-bottom: 20px;
+    margin-top: 15px;
        height: 10vh;
        margin-right: 10%;
        
